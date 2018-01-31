@@ -1,5 +1,7 @@
 # sysmana2018
 
+![sysmana2018](https://i.imgur.com/dcJKU5U.png)
+
 Archivos del proyecto base para el taller de Realidad Aumentada de la Sysmana 2018 del I.E.S. Gran Capitán ( Córdoba )
 
 Incluye:
