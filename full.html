@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+	<head>
+        <meta charset="utf-8">        
+        <meta name="author" content="TALLER SYSMANA 2018">
+        <meta name="description" content="TALLER SYSMANA 2018">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="msapplication-tap-highlight" content="no">
+        <title>TALLER SYSMANA 2018</title>
+        <script src="js/aframe.min.js"></script>
+        <script src="js/aframe-ar.js"></script>
+        <style>
+            html,body {
+                margin : 0px; overflow: hidden;
+            }
+        </style>
+    </head>
+
+    <body>
+        <!-- RECORDAR QUE PARA ABRIR EL INSPECTOR DE A-FRAME DEBÉIS MANTENER PULSADO CTRL( ó CMD en Mac ) + ALT + I -->
+        <!------------------------------------------------->
+        <a-scene embedded arjs stats>
+         <!--          ASSETS-->
+<!------------------------------------------------->
+          <a-assets>
+              <img src="assets/earth.png" id="earth"/>
+              <img src="assets/moon.jpg" id="moon"/>
+              <img src="assets/wood.jpg" id="wood"/>
+              
+              <a-asset-item id="batman-obj" src="assets/batman/batman.obj"></a-asset-item>
+              <a-asset-item id="batman-mtl" src="assets/batman/batman.mtl"></a-asset-item>
+              
+              <a-asset-item id="bmw-obj" src="assets/bmw/bmw.obj"></a-asset-item>
+              <a-asset-item id="bmw-mtl" src="assets/bmw/bmw.mtl"></a-asset-item>
+              
+          </a-assets>
+          
+          <a-anchor>
+<!--          BATMAN-->
+<!------------------------------------------------->
+<!--          <a-entity obj-model="obj: #batman-obj; mtl: #batman-mtl" scale="0.15 0.15 0.15" position="0 0 0"></a-entity>-->
+<!------------------------------------------------->
+<!--          BMW-->
+<!------------------------------------------------->
+<!--
+          <a-entity obj-model="obj: #bmw-obj; mtl: #bmw-mtl" scale="0.015 0.015 0.015" position="0 0.05 0">
+              <a-animation attribute="rotation" dur="8000" to="0 360 0" repeat="indefinite" easing="linear">
+              </a-animation>
+          </a-entity>
+-->
+<!------------------------------------------------->
+<!--          BOXES-->
+<!------------------------------------------------->
+<!--            <a-box position='0 .5 0' color="red" opacity=".7"></a-box>-->
+<!--            <a-box position='0 0.2 0' scale="0.5 0.5 0.5" src="#wood"></a-box>-->
+<!------------------------------------------------->
+<!--          EARTH & MOON-->
+<!------------------------------------------------->
+<!--
+            <a-sphere position="0 0.5 0" radius="0.5" src="#earth">
+                
+                <a-animation attribute="rotation" dur="8000" to="0 360 0" repeat="indefinite" easing="linear">
+                </a-animation>
+                       
+            </a-sphere>
+            
+            <a-entity position="0 0.5 0">
+               
+                <a-sphere position="1 0 0" radius=".17" src="#moon">
+                    <a-animation attribute="rotation" to="0 360 0" easing="linear" dur="8000" repeat="indefinite"></a-animation>
+                </a-sphere>
+                <a-animation attribute="rotation" from="0 0 0" to="0 360 0" easing="linear" dur="8000" repeat="indefinite"></a-animation>
+                
+            </a-entity>
+-->
+            
+          </a-anchor>
+          
+          <a-camera-static/>
+          
+        </a-scene>
+   
+    </body>
+    
+</html>
