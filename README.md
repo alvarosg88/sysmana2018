@@ -4,6 +4,8 @@
 
 Archivos del proyecto base para el taller de Realidad Aumentada de la Sysmana 2018 del I.E.S. Gran Capitán ( Córdoba )
 
+<b>HE AÑADIDO EL FICHERO full.html CON EL CÓDIGO COMPLETO DEL EJERCICIO DEL TALLER</b>
+
 <p align="center">
 <b>Es necesario descargar e imprimir esta imagen para visualizar correctamente el contenido<b/><br/><br/>
 <img src="https://i.imgur.com/xsjy5TT.png" data-canonical-src="https://i.imgur.com/xsjy5TT.png" width="250" height="250"/>
